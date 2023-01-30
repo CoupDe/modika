@@ -24,33 +24,31 @@ function App() {
   return (
     <div className="App">
       <div className="example">
-        <svg
-          className="example"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="268.3960078978169 86.37386124394217 263.2079842043662 329.00794795461286"
-        >
+        <svg viewBox="0 0 300 300">
           <motion.g>
-            <motion.path
-              d="M353 344 c-29 -15 -63 -65 -63 -94 0 -31 34 -80 67 -95 30 -15 42
+            <div style={{ height: "300px", width: "300px" }}>
+              <motion.path
+                d="M110 0 c-29 -15 -63 -65 -63 -94 0 -31 34 -80 67 -95 30 -15 42
               -15 75 -6 42 13 78 58 78 99 0 39 -29 83 -65 98 -43 18 -52 17 -92 -2z m96
               -24 c31 -16 46 -65 31 -100 -15 -37 -37 -50 -82 -50 -71 0 -106 84 -56 137 23
               25 74 31 107 13z"
-              initial={{ pathLength: 0 }}
-              animate={{ pathLength: 1 }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                repeatType: "loop",
-                repeatDelay: 2,
-              }}
-              x="1"
-              y="1"
-              width="5"
-              height="5"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            ></motion.path>
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  repeatDelay: 2,
+                }}
+                x="1"
+                y="1"
+                width="1"
+                height="1"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></motion.path>
+            </div>
             <motion.line
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
@@ -121,13 +119,7 @@ function App() {
             ></motion.circle>
           </motion.g>
         </svg>
-        <a href="https://vitejs.dev" target="_blank"></a>
-
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
