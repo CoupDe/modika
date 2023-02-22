@@ -2,33 +2,43 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4">
-      <div className="container mx-auto flex justify-between">
-        <p className="text-sm">&copy; My Company 2023</p>
+    <footer className="flex items-center justify-between p-5 bg-slate-100">
+      <div className="container mx-auto flex justify-center">
         <div className="flex">
           <a
             href="#"
-            className="block px-4 py-2 mr-4 text-teal-400 hover:text-white"
+            className={
+              "block px-4 py-2 shadow-md text-slate-900  hover:text-slate-500 focus:outline-none focus:shadow-outline transition duration-300 ease-in-out "
+            }
           >
             Home
-          </a>
+          </a>{" "}
+          <span className="inline-block w-[1px] bg-slate-500 " />
           <a
             href="#"
-            className="block px-4 py-2 mr-4 text-teal-400 hover:text-white"
+            className={
+              "block px-4 py-2 shadow-md text-slate-900  hover:text-slate-500 focus:outline-none focus:shadow-outline transition duration-300 ease-in-out "
+            }
           >
             About
-          </a>
+          </a>{" "}
+          <span className="inline-block w-[1px] bg-slate-500 " />
           <a
             href="#"
-            className="block px-4 py-2 mr-4 text-teal-400 hover:text-white"
+            className={
+              "block px-4 py-2 shadow-md text-slate-900  hover:text-slate-500 focus:outline-none focus:shadow-outline transition duration-300 ease-in-out "
+            }
           >
-            Services
-          </a>
+            Сервис
+          </a>{" "}
+          <span className="inline-block w-[1px] bg-slate-500 " />
           <a
             href="#"
-            className="block px-4 py-2 text-teal-400 hover:text-white"
+            className={
+              "block px-4 py-2 shadow-md text-slate-900  hover:text-slate-500 focus:outline-none focus:shadow-outline transition duration-300 ease-in-out "
+            }
           >
-            Contact
+            Контакты
           </a>
         </div>
       </div>
