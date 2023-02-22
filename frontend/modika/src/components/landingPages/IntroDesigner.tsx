@@ -28,11 +28,12 @@ const textVariant: Variants = {
 };
 const introDesigner = () => {
   return (
-    <motion.section className="relative  bg-slate-100 pb-6">
+    <motion.section className="relative  bg-slate-100 my-6">
       <motion.div className="mx-auto ">
         <motion.div
           role="card"
-          className="flex flex-col items-center md:flex-row  justify-start border   border-slate-400 rounded-xl bg-slate-200 text-slate-500 p-2 md:p-20 mt-2"
+          className="flex flex-col items-center md:flex-row  justify-start border   border-slate-400 rounded-xl bg-slate-200 text-slate-500 p-2 md:p-20
+          "
         >
           <motion.div
             variants={textVariant}

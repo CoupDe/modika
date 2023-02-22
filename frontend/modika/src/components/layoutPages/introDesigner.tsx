@@ -28,7 +28,7 @@ const textVariant: Variants = {
 };
 const introDesigner = () => {
   return (
-    <motion.section className="relative  bg-slate-100 pb-6">
+    <motion.section className="relative bg-slate-100 mb-6">
       <motion.div className="mx-auto ">
         <motion.div
           role="card"
